@@ -18,15 +18,24 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
+<<<<<<< HEAD
           "net5.0"
+=======
+          "net6.0"
+>>>>>>> 0902c7bc803bb895bf31d197a62a3157fd6178fa
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
+<<<<<<< HEAD
           "net5.0": {
             "targetAlias": "net5.0",
+=======
+          "net6.0": {
+            "targetAlias": "net6.0",
+>>>>>>> 0902c7bc803bb895bf31d197a62a3157fd6178fa
             "projectReferences": {}
           }
         },
@@ -37,6 +46,7 @@
         }
       },
       "frameworks": {
+<<<<<<< HEAD
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
@@ -73,6 +83,14 @@
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[5.6.3, )"
+=======
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+>>>>>>> 0902c7bc803bb895bf31d197a62a3157fd6178fa
             }
           },
           "imports": [
