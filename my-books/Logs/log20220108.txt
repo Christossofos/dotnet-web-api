@@ -1,0 +1,2 @@
+01/08/2022 18:56:28 +02:00 [Information] - Message: This is a log in GetAllAuthors().
+01/08/2022 18:56:36 +02:00 [Information] - Message: This is a log in GetAllAuthors().
