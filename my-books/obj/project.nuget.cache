@@ -1,6 +1,5 @@
 {
   "version": 2,
-<<<<<<< HEAD
   "dgSpecHash": "LCKO02/eRUwgUZv1XQFSHZhs9bsNV1Ypx0iyyurzRuJ/TM+RPihIjMM3AcLprSvyzH52KOqr1H3n4aUi9HRW+Q==",
   "success": true,
   "projectFilePath": "C:\\Users\\chris\\source\\repos\\my-books\\my-books\\my-books.csproj",
@@ -164,18 +163,6 @@
     "C:\\Users\\chris\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
     "C:\\Users\\chris\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
     "C:\\Users\\chris\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512"
-=======
-  "dgSpecHash": "HgtpRcYVl9F3sk/huDb9XqHPjJJLSPKKwU161NtOr19IVpoeRUznTDBKFhhAIaPCIdPAZ9jVmjnAYxFH6/KY9w==",
-  "success": true,
-  "projectFilePath": "C:\\Users\\chris\\source\\repos\\my-books\\my-books\\my-books.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\chris\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
-    "C:\\Users\\chris\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
-    "C:\\Users\\chris\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
-    "C:\\Users\\chris\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
-    "C:\\Users\\chris\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
-    "C:\\Users\\chris\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.2.3\\swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512"
->>>>>>> 0902c7bc803bb895bf31d197a62a3157fd6178fa
   ],
   "logs": []
 }

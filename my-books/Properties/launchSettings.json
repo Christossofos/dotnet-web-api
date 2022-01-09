@@ -1,22 +1,11 @@
 ﻿{
-<<<<<<< HEAD
-  "$schema": "http://json.schemastore.org/launchsettings.json",
-=======
   "$schema": "https://json.schemastore.org/launchsettings.json",
->>>>>>> 0902c7bc803bb895bf31d197a62a3157fd6178fa
   "iisSettings": {
     "windowsAuthentication": false,
     "anonymousAuthentication": true,
     "iisExpress": {
-<<<<<<< HEAD
       "applicationUrl": "http://localhost:43588",
       "sslPort": 44365
-    }
-  },
-  "profiles": {
-=======
-      "applicationUrl": "http://localhost:4292",
-      "sslPort": 44305
     }
   },
   "profiles": {
@@ -30,22 +19,10 @@
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
->>>>>>> 0902c7bc803bb895bf31d197a62a3157fd6178fa
     "IIS Express": {
       "commandName": "IISExpress",
       "launchBrowser": true,
       "launchUrl": "swagger",
-      "environmentVariables": {
-        "ASPNETCORE_ENVIRONMENT": "Development"
-      }
-<<<<<<< HEAD
-    },
-    "my_books": {
-      "commandName": "Project",
-      "dotnetRunMessages": "true",
-      "launchBrowser": true,
-      "launchUrl": "swagger",
-      "applicationUrl": "https://localhost:5001;http://localhost:5000",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
@@ -59,8 +36,6 @@
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
-=======
->>>>>>> 0902c7bc803bb895bf31d197a62a3157fd6178fa
     }
   }
 }

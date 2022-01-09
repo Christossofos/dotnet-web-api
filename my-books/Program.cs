@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Hosting;
@@ -26,14 +25,13 @@ namespace my_books
                     .CreateLogger();
 
                 //Log.Logger = new LoggerConfiguration()
-                //    .WriteTo.File("Logs/log.txt", rollingInterval: RollingInterval.Day) // Serilog will create a new file everyday.
+                //    .WriteTo.File("Logs/log.txt", rollingInterval: RollingInterval.Day)
                 //    .CreateLogger();
 
                 CreateHostBuilder(args).Build().Run();
             }
             finally
             {
-
                 Log.CloseAndFlush();
             }
 
@@ -48,31 +46,3 @@ namespace my_books
                 });
     }
 }
-=======
-
-var builder = WebApplication.CreateBuilder(args);
-
-// Add services to the container.
-
-builder.Services.AddControllers();
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
-builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
-
-var app = builder.Build();
-
-// Configure the HTTP request pipeline.
-if (app.Environment.IsDevelopment())
-{
-    app.UseSwagger();
-    app.UseSwaggerUI();
-}
-
-app.UseHttpsRedirection();
-
-app.UseAuthorization();
-
-app.MapControllers();
-
-app.Run();
->>>>>>> 0902c7bc803bb895bf31d197a62a3157fd6178fa

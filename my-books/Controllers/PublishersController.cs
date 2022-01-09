@@ -73,14 +73,14 @@ namespace my_books.Controllers
 
         /* ActionResult return custom (specific) types (publisher) and IActionResult types(NotFound). */
         [HttpGet("get-publisher-by-id/{id}")]
-        public ActionResult<Publisher> GetPublisherById(int id)
+        //public ActionResult<Publisher> GetPublisherById(int id)
+        public IActionResult GetPublisherById(int id)
         {
             var _response = _publishersService.GetPublisherById(id);
             if (_response != null)
             {
-                //var _responseObject
-                //return Ok(_response);
-                return _response;
+                return Ok(_response);
+                //return _response;
             }
             else
             {
